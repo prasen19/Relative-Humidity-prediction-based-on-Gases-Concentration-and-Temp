@@ -1,4 +1,4 @@
-# Relative-Humidity-prediction-based-on-Gases-Concentration-and-Temp
+# Relative-Humidity-prediction-based-on-Gases-Concentration-and-Temperature available
 
 Humidity prediction is one of the important aspect in weather prediction analysis to find out temperature and rain precipitation predictions.
 
@@ -14,9 +14,9 @@ Missing values are tagged with -200 value.
 
 The Best Resuts among different values of alpha are:
 
-1. Linear Regression with L2 regularization (ridge regression) for alpha=10
-1.1. Training Accuracy: 0.71
-1.2. Testing Accuracy: 0.72
+1. Linear Regression with L2 regularization (ridge regression) for alpha=10\
+1.1. Training Accuracy: 0.71\
+1.2. Testing Accuracy: 0.72\
 
 2. Polynomial Regression (degree=2) with L2 regularization (ridge regression) for alpha=1
 2.1. Training Accuracy: 0.85
