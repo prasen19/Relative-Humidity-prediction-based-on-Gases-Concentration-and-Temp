@@ -15,16 +15,16 @@ Missing values are tagged with -200 value.
 The Best Resuts among different values of alpha are:
 
 1. Linear Regression with L2 regularization (ridge regression) for alpha=10
-1.1 Training Accuracy: 0.71
-1.2 Testing Accuracy: 0.72
+1.1. Training Accuracy: 0.71
+1.2. Testing Accuracy: 0.72
 
 2. Polynomial Regression (degree=2) with L2 regularization (ridge regression) for alpha=1
-2.1 Training Accuracy: 0.85
-2.2 Testing Accuracy: 0.81
+2.1. Training Accuracy: 0.85
+2.2. Testing Accuracy: 0.81
 
 3. Polynomial Regression (degree=3) with L2 regularization (ridge regression) for alpha=1
-3.1 Training Accuracy: 0.89
-3.2 Testing Accuracy: 0.75
+3.1. Training Accuracy: 0.89
+3.2. Testing Accuracy: 0.75
 
 
 
