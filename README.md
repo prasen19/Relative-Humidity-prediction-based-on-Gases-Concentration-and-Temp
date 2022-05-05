@@ -12,7 +12,7 @@ Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Be
  
 Missing values are tagged with -200 value.
 
-The Best Resuts among different values of alpha are:
+The Best Results among different values of alpha are:
 
 1. Linear Regression with L2 regularization (ridge regression) for alpha=10\
 1.1. Training Accuracy: 0.71\
