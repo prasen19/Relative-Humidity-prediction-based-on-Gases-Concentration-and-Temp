@@ -3,7 +3,7 @@
 ![Rain](Rain.png)
 
 ## Overview
-1. Humidity prediction is one of the important aspect in weather prediction analysis to find out temperature and rain precipitation predictions.
+1. Humidity prediction is one of the important aspects in weather prediction analysis to find out temperature and rain precipitation predictions.
 2. This project is a regression model that will try to predict relative humidity (humidity %) in the given area using gases concentration and temperature available in that particular area.  
 3. The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multi-Sensor Device.
 4. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to April 2005.
@@ -12,7 +12,7 @@
 
 ## Dataset 
 
-The dataset can downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
+The dataset can be downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
 
 ## EDA and Feature Engineering
 
@@ -24,19 +24,42 @@ The dataset can downloaded from [here](https://archive.ics.uci.edu/ml/datasets/A
 6. Extract Hour from time and make it as a new feature. As humidity depends upon time and season these features are very imp.
 7. Now delete the Date and Time column.
 8. As our target is predicting RH(Relative Humidity), we must drop AH(Absolute Humudity).
+9. Use df.info() to make sure all features are numeric and NA values are removed.
+10. Use df.isnull().sum() to reconfirm that NA values are completely removed.
 
-The Best Results among different values of alpha are:
+## Machine Laerning Models
 
-1. Linear Regression with L2 regularization (ridge regression) for alpha=10\
-1.1. Training Accuracy: 0.71\
-1.2. Testing Accuracy: 0.72
+**We have trained this dataset on various ML Models. Let us compare the Test Results on the basis of their performance.**
 
-2. Polynomial Regression (degree=2) with L2 regularization (ridge regression) for alpha=1\
-2.1. Training Accuracy: 0.85\
-2.2. Testing Accuracy: 0.81
+### Ridge Regression (alpha=1)
+Percentage Accuracy for Test Data 84.74 %
 
-3. Polynomial Regression (degree=3) with L2 regularization (ridge regression) for alpha=1\
-3.1. Training Accuracy: 0.89\
-3.2. Testing Accuracy: 0.75
+Mean Absolute Percentage Error for Test Data 15.25%
+
+### Polynomial Regression with degree of 2 (Ridge Regression (alpha=1))
+Percentage Accuracy for Test Data 89.90 %
+
+Mean Absolute Percentage Error for Test Data 10.09 %
+
+### Polynomial Regression with degree of 3 (Ridge Regression (alpha=1))
+Percentage Accuracy for Test Data 91.53 %
+
+Mean Absolute Percentage Error for Test Data 8.46 %
+
+### # Random Forest Regressor
+Percentage Accuracy for Test Data 91.60 %
+
+Mean Absolute Percentage Error for Test Data 8.39 %
+
+### Gradient Boosting Regressor
+Percentage Accuracy for Test Data 88.98 %
+
+Mean Absolute Percentage Error for Test Data 11.01 %
+
+### XGBoost Regressor
+Percentage Accuracy for Test data is 92.88 %
+
+Mean Absolute Percentage Error for Test data is 7.11 %
+
 
 
