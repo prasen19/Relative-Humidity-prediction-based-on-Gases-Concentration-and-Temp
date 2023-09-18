@@ -3,7 +3,7 @@
 ![Rain](Rain.png)
 
 ## Overview
-1. Humidity prediction is one of the important aspects in weather prediction analysis to find out temperature and rain precipitation predictions.
+1. Humidity prediction is one of the important aspects in weather prediction analysis to find out rain precipitation predictions.
 2. This project is a regression model that will try to predict relative humidity (humidity %) in the given area using gases concentration and temperature available in that particular area.  
 3. The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multi-Sensor Device.
 4. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to April 2005.
