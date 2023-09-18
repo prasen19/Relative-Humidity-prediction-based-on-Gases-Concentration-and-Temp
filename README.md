@@ -64,7 +64,7 @@ Mean Absolute Percentage Error for Test data is 7.12 %
 ## Conclusion 
 The XGBoost Regressor is performing best compared with all other models.
 
-## XGBoost Results for 100 samples - Actual Price and Predicted Price
+## XGBoost Results for 100 samples - Actual Value and Predicted Value
 
 ![Result](Result.jpg)
 
