@@ -34,37 +34,40 @@ The dataset can be downloaded from [here](https://archive.ics.uci.edu/ml/dataset
 ### 1. Ridge Regression (alpha=1)
 Percentage Accuracy for Test Data 84.74 %
 
-Mean Absolute Percentage Error for Test Data 15.25%
+Mean Absolute Percentage Error for Test Data 15.26%
 
 ### 2. Polynomial Regression with degree of 2 (Ridge Regression (alpha=1))
 Percentage Accuracy for Test Data 89.90 %
 
-Mean Absolute Percentage Error for Test Data 10.09 %
+Mean Absolute Percentage Error for Test Data 10.10 %
 
 ### 3. Polynomial Regression with degree of 3 (Ridge Regression (alpha=1))
 Percentage Accuracy for Test Data 91.53 %
 
-Mean Absolute Percentage Error for Test Data 8.46 %
+Mean Absolute Percentage Error for Test Data 8.47 %
 
 ### 4. Random Forest Regressor
 Percentage Accuracy for Test Data 91.60 %
 
-Mean Absolute Percentage Error for Test Data 8.39 %
+Mean Absolute Percentage Error for Test Data 8.40 %
 
 ### 5. Gradient Boosting Regressor
 Percentage Accuracy for Test Data 88.98 %
 
-Mean Absolute Percentage Error for Test Data 11.01 %
+Mean Absolute Percentage Error for Test Data 11.02 %
 
 ### 6. XGBoost Regressor
 Percentage Accuracy for Test data is 92.88 %
 
-Mean Absolute Percentage Error for Test data is 7.11 %
+Mean Absolute Percentage Error for Test data is 7.12 %
 
 ## Conclusion 
 The XGBoost Regressor is performing best compared with all other models.
 
 ## XGBoost Results for 100 samples - Actual Price and Predicted Price
 
+![Result](Result.jpg)
+
 ## XGBoost Feature Importance
+![Imp_Features](Imp_Features.jpg)
 
