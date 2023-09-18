@@ -1,5 +1,7 @@
 # Relative Humidity prediction based on Gases concentration and Temperature available
 
+![Rain](Rain.png)
+
 ## Overview
 1. Humidity prediction is one of the important aspect in weather prediction analysis to find out temperature and rain precipitation predictions.
 2. This project is a regression model that will try to predict relative humidity (humidity %) in the given area using gases concentration and temperature available in that particular area.  
