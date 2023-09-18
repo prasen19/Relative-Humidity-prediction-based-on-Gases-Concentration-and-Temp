@@ -10,6 +10,21 @@
 5. Ground Truth hourly averaged concentrations for CO, Non-Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx), and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer. 
 6. Missing values are tagged with -200 value.
 
+## Dataset 
+
+The dataset can downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
+
+## EDA and Feature Engineering
+
+1. Read and view the data file.
+2. NA values are filled as -200. So replace -200 with np.NaN
+3. The feature column NMHC(GT) contains almost 90% NA values so we will delete it.
+4. Delete all the rows with NA values.
+5. Let us make the year, month and day as 3 new features from the Date column.
+6. Extract Hour from time and make it as a new feature. As humidity depends upon time and season these features are very imp.
+7. Now delete the Date and Time column.
+8. As our target is predicting RH(Relative Humidity), we must drop AH(Absolute Humudity).
+
 The Best Results among different values of alpha are:
 
 1. Linear Regression with L2 regularization (ridge regression) for alpha=10\
@@ -25,5 +40,3 @@ The Best Results among different values of alpha are:
 3.2. Testing Accuracy: 0.75
 
 
-
-The dataset can downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
