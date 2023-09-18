@@ -31,32 +31,32 @@ The dataset can be downloaded from [here](https://archive.ics.uci.edu/ml/dataset
 
 **We have trained this dataset on various ML Models. Let us compare the Test Results on the basis of their performance.**
 
-### Ridge Regression (alpha=1)
+### 1. Ridge Regression (alpha=1)
 Percentage Accuracy for Test Data 84.74 %
 
 Mean Absolute Percentage Error for Test Data 15.25%
 
-### Polynomial Regression with degree of 2 (Ridge Regression (alpha=1))
+### 2. Polynomial Regression with degree of 2 (Ridge Regression (alpha=1))
 Percentage Accuracy for Test Data 89.90 %
 
 Mean Absolute Percentage Error for Test Data 10.09 %
 
-### Polynomial Regression with degree of 3 (Ridge Regression (alpha=1))
+### 3. Polynomial Regression with degree of 3 (Ridge Regression (alpha=1))
 Percentage Accuracy for Test Data 91.53 %
 
 Mean Absolute Percentage Error for Test Data 8.46 %
 
-### # Random Forest Regressor
+### 4. Random Forest Regressor
 Percentage Accuracy for Test Data 91.60 %
 
 Mean Absolute Percentage Error for Test Data 8.39 %
 
-### Gradient Boosting Regressor
+### 5. Gradient Boosting Regressor
 Percentage Accuracy for Test Data 88.98 %
 
 Mean Absolute Percentage Error for Test Data 11.01 %
 
-### XGBoost Regressor
+### 6. XGBoost Regressor
 Percentage Accuracy for Test data is 92.88 %
 
 Mean Absolute Percentage Error for Test data is 7.11 %
