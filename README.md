@@ -1,16 +1,12 @@
-# Relative Humidity prediction based on Gases Concentration and Temperature available
+# Relative Humidity prediction based on Gases concentration and Temperature available
 
-Humidity prediction is one of the important aspect in weather prediction analysis to find out temperature and rain precipitation predictions.
-
-This is project is a regression model which will try to predict relative humidity (humidity %) in the given area using gases concentration and temperature available in that particular area.  
-
-The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multi Sensor Device.
-
-The device was located on the field in a significantly polluted area, at road level,within an Italian city. Data were recorded from March 2004 to April 2005.
-
-Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) and were provided by a co-located reference certified analyzer. 
- 
-Missing values are tagged with -200 value.
+## Overview
+1. Humidity prediction is one of the important aspect in weather prediction analysis to find out temperature and rain precipitation predictions.
+2. This project is a regression model that will try to predict relative humidity (humidity %) in the given area using gases concentration and temperature available in that particular area.  
+3. The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multi-Sensor Device.
+4. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to April 2005.
+5. Ground Truth hourly averaged concentrations for CO, Non-Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx), and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer. 
+6. Missing values are tagged with -200 value.
 
 The Best Results among different values of alpha are:
 
